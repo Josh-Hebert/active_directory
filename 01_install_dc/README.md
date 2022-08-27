@@ -1,5 +1,5 @@
 # 01 Installing the Domain Controller
-	
+
 1. Use 'sconfig' to:
 	-change the hostname
 	-change the IP address and set static
@@ -11,7 +11,7 @@
 	---shell
 
 
-3. Then we can Install the Active Direcotry Windows Feature we find:
+3. Then we can Install the Active Directory Windows Feature we find:
 	---shell
 	install-windowsfeature AD-Domain-Services -IncludemanagementTools
 	---shell
@@ -23,5 +23,5 @@
 	---shell
 	install-ADDSForest
 	---shell
-	Enter your values that you would like for DomainName/SafeModeAdministratorPassword and confirm. 
+	Enter your values that you would like for DomainName/SafeModeAdministratorPassword and confirm.
 	Then click Y.
