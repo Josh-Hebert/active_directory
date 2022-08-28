@@ -1,0 +1,20 @@
+{
+	"groups": [
+		{
+			"name": "CyberSecurity"
+		}
+	],
+
+	"users": [
+		{
+			"first_name": "Josh",
+			"last_name": "Hebert",
+			"password": "anything",
+			"username": "Josh.Hebert",
+			"groups": [
+				"CyberSecurity"
+			]
+		}
+		
+	]
+}
