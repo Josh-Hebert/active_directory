@@ -36,3 +36,4 @@
  		---shell
  		Enter-PSSession $dc
  		---
+ 	5. By user the 2 files in the "code" directory we can utilize powershell and JSON to create AD users and add them to groups systematically with tons of flexability and control. 
